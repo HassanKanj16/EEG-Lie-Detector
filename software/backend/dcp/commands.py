@@ -20,3 +20,8 @@ def cleardb():
     db.session.query(BCICollection).delete()
     db.session.commit()
     print("Deleted data")
+
+
+@commands_bp.cli.command('viewdb')
+def viewdb():
+    print("view db command")
