@@ -39,6 +39,9 @@ def validate_json(*fields):
         return decorated
     return decorator
 
+@bp.route("/", methods=['GET'])
+def default():
+    return "test"
 
 @bp.route("/openbci/start", methods=['POST'])
 def openbci_start():
