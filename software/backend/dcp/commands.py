@@ -24,4 +24,7 @@ def cleardb():
 
 @commands_bp.cli.command('viewdb')
 def viewdb():
-    print("view db command")
+    db.session.query(CollectedData).all()
+    print("Printed CollectedData db")
+    db.session.query(BCICollection).all()
+    print("Printed BCICollection data")
