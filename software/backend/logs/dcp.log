@@ -1,0 +1,8 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.121.2.140:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://172.19.60.29:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
